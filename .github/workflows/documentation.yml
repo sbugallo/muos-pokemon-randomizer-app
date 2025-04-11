@@ -6,6 +6,9 @@ on:
       - published
       - released
       - prereleased
+  push:
+    tags:
+      - "*"
 
 permissions:
   contents: write
@@ -32,7 +35,7 @@ jobs:
       
       - name: Deploy documentation
         run: |
-          VERSION=${GITHUB_REF#refs/tags/v}
+          VERSION=${GITHUB_REF#refs/tags/}
           echo "Detected version: $VERSION"
 
           if [[ $VERSION == *"rc"* ]]; then
