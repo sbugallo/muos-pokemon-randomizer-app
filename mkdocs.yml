@@ -1,11 +1,10 @@
-site_name: Muos Pokemon Randomizer
+site_name: muOS Pokémon Randomizer App
 site_description: muOS app for randomizing Pokémon games in you handheld console
-site_url: https://mkdocs-material.github.io/
+site_url: https://sbugallo.github.io.github.io/muos-pokemon-randomizer-app
 site_author: Sergio Bugallo
 
-repo_name: sbugallo/muos_pokemon_randomizer
-repo_url: https://github.com/sbugallo/muos_pokemon_randomizer
-
+repo_name: sbugallo/muos-pokemon-randomizer-app
+repo_url: https://github.com/sbugallo/muos-pokemon-randomizer-app
 
 theme:
   name: material
