@@ -1,0 +1,11 @@
+name: muos-pokemon-randomizer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - conda-forge::just
+  - pip
+  - pip:
+    - -r requirements.txt
+    - -r requirements.dev.txt
