@@ -2,13 +2,7 @@ name: Documentation
 
 on:
   release:
-    types: 
-      - published
-      - released
-      - prereleased
-  push:
-    tags:
-      - "*"
+    types: [published]
 
 permissions:
   contents: write
