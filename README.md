@@ -175,7 +175,7 @@ $ cd muos_pokemon_randomizer
 ```bash
 $ conda env create -f conda.yml
 $ conda activate muos-pokemon-randomizer
-$ precommit install
+$ pre-commit install
 ```
 
 This will install all dependecies and development tools like:
