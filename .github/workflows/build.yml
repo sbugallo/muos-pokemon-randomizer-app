@@ -1,4 +1,4 @@
-name: Build app creates a release
+name: Build App
 
 on:
   workflow_run:

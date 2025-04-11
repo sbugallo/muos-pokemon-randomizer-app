@@ -1,9 +1,14 @@
 name: Documentation
 
 on:
-  push:
-    tags:
-      - 'v*'
+  workflow_run:
+    workflows: ["Build App"]
+    types:
+      - completed
+    branches:
+      - main
+      - develop
+    conclusion: success
 
 permissions:
   contents: write
