@@ -61,6 +61,6 @@ jobs:
           tag_name: ${{ env.version }}
           name: Release ${{ env.version }}
           files: .dist/*.muxapp
-          prerelease: ${{ env.version == *rc* }}
+          prerelease: ${{ env.version == '*rc*' }}
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
