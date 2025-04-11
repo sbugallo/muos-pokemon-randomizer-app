@@ -48,4 +48,4 @@ build:
 zip:
 	mkdir -p .dist
 	cd .build && zip -r "{{ base_name }}-{{ version }}.muxapp" ./*
-	mv ".build/{{ base_name }}-{{ version }}.muxapp" .dist/"{{ base_name }}-{{ version }}.muxapp"
+	mv ".build/{{ base_name }}-{{ version }}.muxapp" ".dist/{{ base_name }}-{{ version }}.muxapp"
