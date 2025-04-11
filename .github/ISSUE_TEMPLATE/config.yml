@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/sbugallo/muos_pokemon_randomizer#readme
+    about: Check our documentation for answers to common questions
+  - name: 💬 Discussions
+    url: https://github.com/sbugallo/muos_pokemon_randomizer/discussions
+    about: Please ask and answer questions here
+  - name: 🐛 Bug Report
+    url: https://github.com/sbugallo/muos_pokemon_randomizer/issues/new?template=bug_report.md
+    about: Create a report to help us improve

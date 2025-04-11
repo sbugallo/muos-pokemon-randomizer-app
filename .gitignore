@@ -1,0 +1,194 @@
+*/third_party
+*/logs
+*/__pycache__
+
+# IDEs and tools
+.idea
+*/.idea
+.sonarlint
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.o
+*.a
+
+# Distribution / packaging
+.Python
+build/
+.build/
+develop-eggs/
+dist/
+.dist
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test_report.xml
+output
+.output
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+_build/
+docs/modules/*.rst
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+*.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# Terraform 
+.terraform/
+
+# Azure config
+config.json
+
+# IA models
+custom_model/
+results/
+vis/
+data.json
+index.json
+doc-registry.json
+.index
+
+# Compiled output
+dist
+tmp
+out-tsc
+bazel-out
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.angular/cache
+.sass-cache/
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+.pdf
+scripts/data*
+scripts/ground_truth*
+scripts/extracted*
+scripts/*.json
+val_data/
+val_extracted/
+*.csv
+*.xlsx
+
+# Java
+*.jar
