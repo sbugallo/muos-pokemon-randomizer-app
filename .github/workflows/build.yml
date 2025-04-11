@@ -42,8 +42,7 @@ jobs:
             NEW_VERSION="${CURRENT_VERSION}"
           fi
           
-          echo "version=$NEW_VERSION" >> $GITHUB_ENV
-          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "version=v$NEW_VERSION" >> $GITHUB_ENV
           
           # Update version in file
           sed -i "s/version = \".*\"/version = \"$NEW_VERSION\"/" src/__version__.py
@@ -56,14 +55,8 @@ jobs:
       - name: Build muxapp
         run: just muxapp
 
-      - name: Create Git tag
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git tag -a "v${{ env.version }}" -m "Release v${{ env.version }}"
-          git push origin --tags
-
-      - name: Create GitHub Release
+      - name: Create Release
+        if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.version }}
