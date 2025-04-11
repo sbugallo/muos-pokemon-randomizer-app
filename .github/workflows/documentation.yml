@@ -1,14 +1,8 @@
 name: Documentation
 
 on:
-  workflow_run:
-    workflows: ["Build App"]
-    types:
-      - completed
-    branches:
-      - main
-      - develop
-    conclusion: success
+  release:
+    types: [published]
 
 permissions:
   contents: write
@@ -36,7 +30,7 @@ jobs:
       - name: Deploy documentation
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}
-
+          echo "Detected version: $VERSION"
 
           if [[ $VERSION == *"rc"* ]]; then
             echo "Release candidate detected, setting 'latest' alias"
