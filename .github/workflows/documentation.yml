@@ -46,4 +46,4 @@ jobs:
             --push \
             $VERSION $ALIAS
 
-          mike set-default stable
+          mike set-default --push stable
