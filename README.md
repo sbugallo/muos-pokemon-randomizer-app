@@ -1,9 +1,11 @@
 # muOS Pokémon Randomizer
 
 <div align="center">
-  <img src=".github/resources/isotipo.png" height="180px" width="auto" alt="logo">
-[![license-badge-img]][license-badge]
-[![release-badge-img]][release-badge]
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/logo.png" 
+        height="180px" 
+        width="auto" 
+        alt="logo"
+    >
 </div>
 
 A powerful Pokémon ROM randomizer for muOS devices that lets you create unique adventures by randomizing GB, GBA and GBC Pokémon games directly on your device.
@@ -20,46 +22,113 @@ A powerful Pokémon ROM randomizer for muOS devices that lets you create unique 
 
 1. Download the latest release:
 
-   - Visit the [Releases](https://github.com/yourusername/muos_pokemon_randomizer/releases/latest) 
+    - Visit the [Releases](https://github.com/yourusername/muos_pokemon_randomizer/releases/latest) 
      page
-   - Download the `Pokemon-Randomizer-Installer-*.muxapp` file
+    - Download the `Pokemon-Randomizer-Installer-*.muxapp` file
 
 2. Install on your muOS device:
 
-   - Connect your device to your computer or use a card reader
-   - Copy the `.muxapp` file to `/mnt/mmc/ARCHIVE/` on your device
-   - Safely eject your device
+    - Connect your device to your computer or use a card reader
+    - Copy the `.muxapp` file to `/mnt/mmc/ARCHIVE/` on your device
+    - Safely eject your device
 
 3. Install the application:
 
-   - On your muOS device, open the Archive Manager
-   - Select the `.muxapp` file you copied
-   - Wait for the installation to complete
+    - On your muOS device, open the Archive Manager
+    - Select the `.muxapp` file you copied
+    - Wait for the installation to complete
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/01.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 1"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/02.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 2"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/03.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 3"
+    >
+</div>
 
 4. Launch the application:
 
-   - Go to the Applications menu
-   - Select "Pokémon Randomizer"
-   - The app should start up and display the main menu.
+    - Go to the Applications menu
+    - Select "Pokémon Randomizer"
+    - The app should start up and display the main menu.
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/04.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 4"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/05.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 5"
+    >
+</div>
 
 ## 🎮 Usage
 
 1. Place your Pokémon ROMs in the ROMS directory of either SD card:
-   - `/mnt/mmc/ROMS/` for SD1
-   - `/mnt/sdcard/ROMS/` for SD2
+    - `/mnt/mmc/ROMS/` for SD1
+    - `/mnt/sdcard/ROMS/` for SD2
 
 2. Launch the application through muOS interface
 
 3. Use the gamepad to navigate:
-   - ➕ D-Pad: Navigate menus
-   - 🔵 A: Select/Confirm
-   - 🔴 B: Back
-   - ⚙️ Menu: Exit
+    - ➕ D-Pad: Navigate menus
+    - 🔵 A: Select/Confirm
+    - 🔴 B: Back
+    - ⚙️ Menu: Exit
 
 4. Select your ROM and press A to start randomization
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/05.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 5"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/06.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 6"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/07.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 7"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/08.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 8"
+    >
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/09.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 9"
+    >
+</div>
+
 5. The randomized ROM will be saved in the same directory as the original with a suffix `.randomized.<timestamp>.<original extension>`
-   - Example: `mygame.gb.randomized.20250410112345.gb`
+    - Example: `mygame.gb.randomized.20250410112345.gb`
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/sbugallo/muos-pokemon-randomizer-app/refs/heads/main/docs/assets/screenshots/10.png" 
+        height="180px" 
+        width="auto" 
+        alt="screenshot 10"
+    >
+</div>
 
 6. You can now play the randomized ROM on your muOS device or any compatible emulator
 
