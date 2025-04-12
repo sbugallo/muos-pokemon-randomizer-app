@@ -33,7 +33,8 @@ build:
 	@echo "Copying Python dependencies..."
 
 	cp requirements.txt .build/requirements.txt
-	pip install --no-cache-dir --platform manylinux_2_28_aarch64 --only-binary=:all: --implementation cp -r .build/requirements.txt --upgrade --target='.build/Pokémon Randomizer/deps'
+	python -m pip install --upgrade pip
+	python -m pip install --no-cache-dir --platform manylinux_2_28_aarch64 --only-binary=:all: --implementation cp -r .build/requirements.txt --upgrade --target='.build/Pokémon Randomizer/deps'
 	rm .build/requirements.txt
 
 	# Move pillow libs to the right place
