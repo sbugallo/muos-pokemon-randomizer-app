@@ -4,4 +4,4 @@ This module contains a single version constant that defines the current version 
 This version number follows semantic versioning and is displayed in the application's header.
 """
 
-version = "0.0.0"
+version = "0.1.0"

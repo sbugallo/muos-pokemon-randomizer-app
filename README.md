@@ -8,7 +8,8 @@
     >
 </div>
 
-A powerful Pokémon ROM randomizer for muOS devices that lets you create unique adventures by randomizing GB, GBA and GBC Pokémon games directly on your device.
+A powerful Pokémon ROM randomizer for muOS devices that lets you create unique adventures by 
+randomizing GB, GBA and GBC Pokémon games directly on your device.
 
 ## 🌟 Features
 
@@ -59,7 +60,7 @@ A powerful Pokémon ROM randomizer for muOS devices that lets you create unique 
 4. Launch the application:
 
     - Go to the Applications menu
-    - Select "Pokémon Randomizer"
+    - Select "Pokemon Randomizer"
     - The app should start up and display the main menu.
 
 <div align="center">
@@ -138,7 +139,7 @@ The randomizer uses setting files (`.rnqs`) to control how games are randomized.
 stored in the application's config directory:
 
 ```
-/mnt/mmc/MUOS/applications/Pokémon Randomizer/configs/
+/mnt/mmc/MUOS/applications/Pokemon Randomizer/configs/
 ├── gb.rnqs  - Settings for Game Boy games (.gb)
 ├── gbc.rnqs - Settings for Game Boy Color games (.gbc)
 └── gba.rnqs - Settings for Game Boy Advance games (.gba)
@@ -157,7 +158,8 @@ To customize the randomization:
   desired platform
 4. Launch the randomizer - your settings will be automatically applied to games of that type
 
-This allows you to have different randomization preferences for different generations of Pokémon games.
+This allows you to have different randomization preferences for different generations of Pokémon 
+games.
 
 ## 📋 Development Prerequisites
 
@@ -175,7 +177,7 @@ $ cd muos_pokemon_randomizer
 ```bash
 $ conda env create -f conda.yml
 $ conda activate muos-pokemon-randomizer
-$ precommit install
+$ pre-commit install
 ```
 
 This will install all dependecies and development tools like:

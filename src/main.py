@@ -13,12 +13,11 @@ running the event loop until exit.
 import sys
 from pathlib import Path
 
-import sdl2
-from loguru import logger
-
 libs_path = Path(__file__).resolve().parent / "deps"
 sys.path.insert(0, str(libs_path.absolute()))
 
+import sdl2  # noqa: E402
+from loguru import logger  # noqa: E402
 
 from app import App  # noqa: E402
 
