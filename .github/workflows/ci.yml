@@ -84,6 +84,22 @@ jobs:
       - name: Build muxapp
         run: just muxapp
 
+      - name: Configure Git user
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Tag version
+        id: tag_version
+        run: |
+          VERSION=${{ env.version }}
+          echo "Tagging version: $VERSION"
+          git tag -a "$VERSION" -m "Release $VERSION"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push origin "$VERSION"
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
