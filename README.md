@@ -11,17 +11,6 @@
 A powerful Pokémon ROM randomizer for muOS devices that lets you create unique adventures by 
 randomizing GB, GBA and GBC Pokémon games directly on your device.
 
-<iframe 
-    width="180" 
-    height="101" 
-    src="https://www.youtube.com/embed/Bd8pb15EkcE?si=TyM7J4A87iLWap03" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen
-></iframe>
-
 ## 🌟 Features
 
 - 🎮 Full game controller support with an intuitive interface

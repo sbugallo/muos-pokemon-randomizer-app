@@ -8,6 +8,7 @@ echo app >/tmp/act_go
 
 ROOT_DIR="$(GET_VAR "device" "storage/rom/mount")"
 APP_DIR="${ROOT_DIR}/MUOS/application/Pokémon Randomizer"
+LOGS_DIR="${APP_DIR}/logs"
 ICON_DIR=/opt/muos/default/MUOS/theme/active/glyph/muxapp/
 FONTS_DIR="/usr/share/fonts/pokemon-randomizer"
 RANDOMIZER_JAR="${APP_DIR}/3rd-party/PokeRandoZX.jar"
@@ -26,7 +27,10 @@ get_controls
 export PYSDL2_DLL_PATH="/usr/lib"
 export LD_LIBRARY_PATH="${APP_DIR}/libs:${LD_LIBRARY_PATH}"
 
-python3 -u main.py
+# Prepare logs
+mkdir -p "${LOGS_DIR}"
+STARTUP_LOG="${APP_DIR}/logs/startup.log"
+python3 -u main.py >"${STARTUP_LOG}" 2>&1
 
 SCREEN_TYPE="internal"
 DEVICE_MODE="$(GET_VAR "global" "boot/device_mode")"
