@@ -7,7 +7,7 @@
 echo app >/tmp/act_go
 
 ROOT_DIR="$(GET_VAR "device" "storage/rom/mount")"
-APP_DIR="${ROOT_DIR}/MUOS/application/Pokémon Randomizer"
+APP_DIR="${ROOT_DIR}/MUOS/application/Pokemon Randomizer"
 LOGS_DIR="${APP_DIR}/logs"
 ICON_DIR=/opt/muos/default/MUOS/theme/active/glyph/muxapp/
 FONTS_DIR="/usr/share/fonts/pokemon-randomizer"
