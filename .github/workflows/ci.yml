@@ -155,5 +155,5 @@ jobs:
           fi
 
           echo "Deploying version $VERSION with alias $ALIAS"
-          mike deploy --update-aliases --push --ignore-remote-status --allow-empty $VERSION $ALIAS
+          mike deploy --update-aliases --push --allow-empty $VERSION $ALIAS
           mike set-default --push stable
