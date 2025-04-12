@@ -157,8 +157,8 @@ jobs:
           echo "Deploying version $VERSION with alias $ALIAS"
           mike deploy \
             --update-aliases \
-            --allow-empty \
             --push \
-            $VERSION $ALIAS
+            $VERSION $ALIAS \
+            --allow-empty
 
           mike set-default --push stable
