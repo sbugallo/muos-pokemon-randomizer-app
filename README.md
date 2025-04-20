@@ -224,7 +224,7 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 
 - This project was inspired by [The RomM Project muOS app](https://github.com/rommapp/muos-app)
 - Font based on [ProFont Nerd Font](https://github.com/ryanoasis/nerd-fonts)
-- The randomizer user is [Universal Pokemon Randomizer ZX v4.6.1](https://github.com/Ajarmar/universal-pokemon-randomizer-zx)
+- The underlying randomizer is [Universal Pokemon Randomizer ZX v4.6.1](https://github.com/Ajarmar/universal-pokemon-randomizer-zx)
 
 ## 🤝 Contributing
 
