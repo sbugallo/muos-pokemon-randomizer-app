@@ -321,4 +321,9 @@ class AppStatus(BaseModel):
             self.select_rom_status.selections = []
             self.select_rom_status.selected_rom = None
             self.select_rom_status.current_selection = 0
+
+            self.randomize_rom_status.is_running = False
+            self.randomize_rom_status.is_finished = False
+            self.randomize_rom_status.logs = ""
+
             self.current_step = Step.SELECT_ROM
